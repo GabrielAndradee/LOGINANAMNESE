@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.quadrado {
+    width: 1300px; 
+    height: 750px;
+    background-color: #fff;
+    border-radius: 60px;
+    background: linear-gradient(to right, #87b87f 40%, #fff 30%);
+    
+}
+
+.quadrado1 {
+    width: 1300px; 
+    height: 750px;
+    background-color: #fff;
+    border-radius: 60px;
+    background:  #87b87f 
+    
+}
+
+
+.quadrado2 {
+    width: 1300px; 
+    height: 750px;
+    background-color: #fff;
+    border-radius: 60px;
+    background: #fff ;
+    
+}
+.linha1 {
+    color: #fff;
+    font-family: 'Khula', sans-serif;
+    text-align: left;
+    font-size: 50px;
+    padding: 100px; 
+    margin: 0;
+}
+
+.linha2 {
+    color: #fff;
+    font-family: 'Khula', sans-serif;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    font-size: 50px;
+    margin-top: -90px; 
+    margin-bottom: 20px; 
+    margin-left: -800px;
+}
+
+.linha3 {
+    color: #F7FFC2;
+    font-family: 'Khula', sans-serif; 
+    text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-left: -800px;
+}
+
+.linha4{
+    color:#F7FFC2;
+    font-family: 'Khula', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-left: -800px;
+}
+
+.botaoE {
+    position: absolute;
+    color: #fff;
+    font-family: 'Khula', sans-serif;
+    background: transparent;
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 200px;
+    border-radius: 60px;
+    margin-top: 15px;
+  
+}
+
+.botaoE:hover {
+    background-color: #fff;
+    color: #87b87f;
+    
+}
+
+.medicosvg {
+    height: auto;
+    width: 25%;
+    margin-top: 30px;
+}
+
+.texto1 {
+    color: #4a8844;
+    font-family: 'Khula', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin-left: -800px;
+    margin-top: -300px;
+}
